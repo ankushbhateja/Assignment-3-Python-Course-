@@ -9,14 +9,14 @@
 # 3.   Calls the function with a sample number and prints the output.
 
 
-# n = int(input("Enter the number here: "))
+n = int(input("Enter the number here: "))
 
-# def findFactorial(a):
-#     for i in range(1,a):
-#       a = a * i
-#     print(a)
+def findFactorial(a):
+    for i in range(1,a):
+      a = a * i
+    print(a)
 
-# findFactorial(n)
+findFactorial(n)
 
 
 
@@ -31,7 +31,9 @@
 # 3.   Displays the calculated results.
 
 import math
+
 n = int(input("Enter the number here: "))
+
 print(f"Square root {math.sqrt(n)}")
 print(f"log {math.log(n)}")
 print(f"Sine {math.sin(n)}")
